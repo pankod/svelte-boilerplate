@@ -6,6 +6,7 @@ module.exports = {
 	],
 	plugins: [
 		'add-module-exports',
-		"inline-dotenv"
+		"inline-dotenv",
+		"@babel/plugin-transform-strict-mode"
 	],
 };
