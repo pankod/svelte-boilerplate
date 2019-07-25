@@ -5,10 +5,8 @@
   let data = [];
 
   onMount(async function() {
-    console.log(process.env.API_URL);
     const response = await Http.Request("GET", "/link/");
     data = response;
-    console.log(data);
   });
 </script>
 

@@ -4,7 +4,6 @@ describe('Sample', () => {
 	it('is empty by default', (next) => {
 		const target = document.createElement('div');
 		const sample = new HelloWorld({ target });
-        console.log(sample);
 
         setTimeout(() => {
 			const { firstElementChild: element } = target;

@@ -4,7 +4,6 @@ describe('Layout', () => {
 	it('default render', (next) => {
 		const target = document.createElement('div');
 		const sample = new Layout({ target });
-        console.log(sample);
 
         setTimeout(() => {
 			const { firstElementChild: element } = target;

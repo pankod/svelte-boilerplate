@@ -5,7 +5,6 @@ require('isomorphic-fetch');
 import { stringify } from 'query-string';
 //#endregion Global Imports
 
-console.log("process.env.API_URL",process.env.API_URL)
 const BaseUrl = `${process.env.API_URL}/api`;
 
 export const Http = {
@@ -26,7 +25,6 @@ export const Http = {
 				method: `${methodType}`,
 			})
 				.then(async response => {
-			console.log("response", response)
 					if (response.status === 200) {
 						return response.json().then(resolve);
 					} else {
