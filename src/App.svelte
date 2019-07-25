@@ -11,6 +11,9 @@
   });
 </script>
 
+<style src="./test.scss"></style>
+
+
 <ul>
   {#each data as link}
     <li>
