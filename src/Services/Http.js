@@ -1,5 +1,7 @@
 //#region Global Imports
-import 'whatwg-fetch';
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
 import { stringify } from 'query-string';
 //#endregion Global Imports
 
@@ -14,7 +16,6 @@ export const Http = {
 	) => {
 		return new Promise((resolve, reject) => {
 			const query = params ? `?${stringify({ ...params, api_key: API_KEY })}` : '';
-
 			window.fetch(`${BaseUrl}${url}${query}`, {
 				body: JSON.stringify(payload),
 				cache: 'no-cache',
