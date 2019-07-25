@@ -7,13 +7,17 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
     "autoprefixer": "^9.6.1",
+    "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-add-module-exports": "^1.0.2",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "jest-transform-svelte": "^2.0.2",
     "mini-css-extract-plugin": "^0.6.0",
+    "nock": "^10.0.6",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
     "serve": "^11.0.0",
@@ -27,12 +31,15 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "start:dev": "webpack-dev-server --content-base public"
+    "start:dev": "webpack-dev-server --content-base public",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "babel-plugin-inline-dotenv": "^1.3.3",
     "dotenv": "^8.0.0",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1",
     "query-string": "^6.8.1",
     "whatwg-fetch": "^3.0.0"
   }

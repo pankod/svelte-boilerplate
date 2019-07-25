@@ -1,8 +1,11 @@
 //#region Global Imports
-import 'whatwg-fetch';
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
 import { stringify } from 'query-string';
 //#endregion Global Imports
 
+console.log("process.env.API_URL",process.env.API_URL)
 const BaseUrl = `${process.env.API_URL}/api`;
 
 export const Http = {
@@ -14,7 +17,6 @@ export const Http = {
 	) => {
 		return new Promise((resolve, reject) => {
 			const query = params ? `?${stringify({ ...params, api_key: API_KEY })}` : '';
-
 			window.fetch(`${BaseUrl}${url}${query}`, {
 				body: JSON.stringify(payload),
 				cache: 'no-cache',
@@ -24,6 +26,7 @@ export const Http = {
 				method: `${methodType}`,
 			})
 				.then(async response => {
+			console.log("response", response)
 					if (response.status === 200) {
 						return response.json().then(resolve);
 					} else {
