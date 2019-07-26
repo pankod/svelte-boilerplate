@@ -15,7 +15,7 @@ export const Http = {
 		payload,
 	) => {
 		return new Promise((resolve, reject) => {
-			const query = params ? `?${stringify({ ...params, api_key: API_KEY })}` : '';
+			const query = params ? `?${stringify(params)}` : '';
 			window.fetch(`${BaseUrl}${url}${query}`, {
 				body: JSON.stringify(payload),
 				cache: 'no-cache',
@@ -35,5 +35,5 @@ export const Http = {
 					reject(e);
 				});
 		});
-	},
+	}
 };

@@ -17,3 +17,11 @@ nock('https://academy.valentinog.com')
 			url: 'test2'
 		}
 	]);
+
+nock('https://academy.valentinog.com')
+	.get('/api/200')
+	.reply(200, { success: true });
+
+nock('https://academy.valentinog.com')
+	.get('/api/404')
+	.reply(404, { success: false });
