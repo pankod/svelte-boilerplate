@@ -1,3 +1,5 @@
+<img src="banner.png" alt="SvelteJS application boilerplate with Webpack, scss, babel, fetchjs, postcss, jest, .env." align="center" />
+
 <br/>
 <div align="center" >SvelteJS application boilerplate with Webpack, scss, babel, fetchjs, postcss, jest, .env.</div>
 <br/>
