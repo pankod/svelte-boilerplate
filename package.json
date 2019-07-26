@@ -33,6 +33,7 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
+    "build:inline": "cross-env NODE_ENV=production inline=true webpack",
     "start:dev": "webpack-dev-server --content-base public",
     "test": "jest --coverage --runInBand"
   },
