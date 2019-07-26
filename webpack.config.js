@@ -80,5 +80,8 @@ module.exports = {
 		}),
 		new HtmlWebpackInlineSourcePlugin()
 	],
-	devtool: prod ? false : 'source-map'
+	devtool: prod ? false : 'source-map',
+	devServer: {
+		port: 3000
+	}
 };
