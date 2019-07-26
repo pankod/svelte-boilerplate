@@ -1,8 +1,9 @@
 import "@babel/polyfill";
+import dotenv from 'dotenv';
 
 const nock = require('nock');
 
-
+dotenv.config({path: './.test.env'});
 
 nock('https://academy.valentinog.com')
 	.get('/api/link/')

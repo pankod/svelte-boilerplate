@@ -4,11 +4,11 @@
 
 <div align="center">
   <!-- CodeClimate -->
-  <a href="https://codeclimate.com/github/pankod/svelte-boilerplate/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/077c02d5cb9ec7d8a654/maintainability" />
-  </a>
+<a href="https://codeclimate.com/github/pankod/svelte-boilerplate/maintainability">
+<img src="https://api.codeclimate.com/v1/badges/2c6982d3ad672a07f7ae/maintainability" />
+</a>
   <!-- TestCoverage -->
-  <a href="https://codeclimate.com/github/pankod/svelte-boilerplate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/077c02d5cb9ec7d8a654/test_coverage" /></a>
+<a href="https://codeclimate.com/github/pankod/svelte-boilerplate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/2c6982d3ad672a07f7ae/test_coverage" /></a>
   <!-- Build Status -->
   <a href="https://travis-ci.org/pankod/svelte-boilerplate">
     <img src="https://travis-ci.org/pankod/svelte-boilerplate.svg?branch=master" alt="Build Status" />
