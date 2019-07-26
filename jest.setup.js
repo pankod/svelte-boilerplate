@@ -1,7 +1,6 @@
 import "@babel/polyfill";
 import dotenv from 'dotenv';
-
-const nock = require('nock');
+import nock from 'nock';
 
 dotenv.config({path: './.test.env'});
 
