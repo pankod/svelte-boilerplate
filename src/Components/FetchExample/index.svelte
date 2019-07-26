@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { Http } from "@Services/Http.js";
+  import { Http } from "@Services";
 
   let data = [];
 
