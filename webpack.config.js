@@ -8,7 +8,7 @@ const { scss } = require('svelte-preprocess');
 
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
 
 module.exports = {
