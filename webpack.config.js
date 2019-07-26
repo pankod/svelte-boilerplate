@@ -10,6 +10,7 @@ const { scss } = require('svelte-preprocess');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
+const isInline = process.env.inline;
 
 module.exports = {
 	entry: {
@@ -76,7 +77,10 @@ module.exports = {
 			filename: '[name].css'
 		}),
 		new HtmlWebpackPlugin({
-			inlineSource: '.(js|css)$'
+			inlineSource: isInline ? '.(js|css)$' : '',
+			hash: isInline ? false : true,
+			template: './src/index.html',
+			title: 'svelte-boilerplate'
 		}),
 		new HtmlWebpackInlineSourcePlugin()
 	],
