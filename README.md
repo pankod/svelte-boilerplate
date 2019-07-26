@@ -1,7 +1,7 @@
 <img src="banner.png" alt="SvelteJS application boilerplate with Webpack, scss, babel, fetchjs, postcss, jest, .env." align="center" />
 
 <br/>
-<div align="center" >SvelteJS application boilerplate with Webpack, scss, babel, fetchjs, postcss, jest, .env.</div>
+<div align="center" >Svelte application boilerplate with Webpack, Sass, BabelJS, Fetch, PostCss, Jest, .Env</div>
 <br/>
 
 <div align="center">
@@ -27,7 +27,7 @@
 
 <br/>
 <div align="center">
-This boilerplate make it easier to get started with a well-structured SvelteJS application.
+This boilerplate make it easier to get started with a well-structured Svelte application.
 <br />
 <br />
   <sub>Created by <a href="https://www.pankod.com">Pankod</a></sub>
