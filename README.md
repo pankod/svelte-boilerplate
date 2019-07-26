@@ -25,6 +25,12 @@
 
 This boilerplate make it easier to get started with a well-structured SvelteJS application.
 
+<br/>
+<div align="center">
+  <sub>Created by <a href="https://www.pankod.com">Pankod</a></sub>
+</div>
+
+
 ## Get started
 
 Install the dependencies...
