@@ -4,10 +4,14 @@
 
   let data = [];
 
-  onMount(async function() {
-    const response = await Http.Request("GET", "/link/");
+	async function getData() {
+		const response = await Http.Request("GET", "/link/");
     data = response;
-  });
+	}
+
+  onMount(() => {
+		getData();
+	});
 </script>
 
 <style src="./style.scss">
