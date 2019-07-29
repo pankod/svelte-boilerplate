@@ -57,6 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
-
 # webpack build directory
 public
+
+#history
+.history
