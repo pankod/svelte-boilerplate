@@ -41,7 +41,9 @@
     "build": "cross-env NODE_ENV=production webpack",
     "build:inline": "cross-env NODE_ENV=production inline=true webpack",
     "start:dev": "webpack-dev-server --content-base public",
-    "test": "jest --coverage --runInBand"
+    "test": "jest --coverage --runInBand",
+    "lint": "eslint ./src",
+    "format": "prettier --write ./**/*.svelte"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
