@@ -1,6 +1,16 @@
 {
-  "name": "svelte-boilerplate",
+  "name": "@pankod/svelte-boilerplate",
+  "author": "Pankod <info@pankod.com>",
   "version": "0.0.1",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "build:inline": "cross-env NODE_ENV=production inline=true webpack",
+    "start:dev": "webpack-dev-server --content-base public",
+    "test": "jest --coverage --runInBand",
+    "lint": "eslint -c .eslintrc --ext .svelte,.js src",
+    "format": "eslint -c .eslintrc --fix --ext .svelte,.js --fix src",
+    "format:prettier": "prettier --write src/**/{*.svelte,*.js}"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
@@ -36,14 +46,6 @@
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1"
-  },
-  "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
-    "build:inline": "cross-env NODE_ENV=production inline=true webpack",
-    "start:dev": "webpack-dev-server --content-base public",
-    "test": "jest --coverage --runInBand",
-    "lint": "eslint ./src",
-    "format": "prettier --write ./**/*.svelte"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",

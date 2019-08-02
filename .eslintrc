@@ -8,12 +8,14 @@
     "browser": true
   },
   "plugins": [
-    "svelte3"
+    "svelte3",
+    "prettier"
   ],
+  "extends": ["prettier"],
   "overrides": [
     {
       "files": ["**/*.svelte"],
       "processor": "svelte3/svelte3"
     }
-  ],
+  ]
 }
