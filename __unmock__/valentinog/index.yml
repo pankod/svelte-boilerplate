@@ -1,0 +1,13 @@
+paths: 
+  /api/200: 
+    success: true
+  /api/404: 
+    404: 
+      success: false
+  /api/link/:
+      type: array
+      items:
+        title: foo
+        url: bar
+servers: 
+  - url: "https://academy.valentinog.com"
