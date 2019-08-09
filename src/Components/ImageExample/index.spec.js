@@ -6,7 +6,7 @@ describe('Image Sample', () => {
 		new ImageExample({ target });
 		setTimeout(() => {
 			const { firstElementChild: element } = target;
-			expect(element.className).toBe('bg-image');
+			expect(element.className).toBe('image-content');
 			next();
 		}, 10);
 	});
