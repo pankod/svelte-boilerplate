@@ -1,14 +1,12 @@
-import HelloWorld from './index.svelte';
+import ImageExample from './index.svelte';
 
-describe('Sample', () => {
+describe('Image Sample', () => {
 	it('is empty by default', (next) => {
 		const target = document.createElement('div');
-		const sample = new HelloWorld({ target });
-
+		new ImageExample({ target });
 		setTimeout(() => {
 			const { firstElementChild: element } = target;
-			expect(element.textContent).toBe('Hello World! Hello World!');
-
+			expect(element.className).toBe('bg-image');
 			next();
 		}, 10);
 	});
