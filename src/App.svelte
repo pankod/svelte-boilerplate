@@ -6,7 +6,7 @@
 </script>
 
 <Layout>
+    <ImageExample />
     <HelloWorld />
     <FetchExample />
-    <ImageExample />
 </Layout>

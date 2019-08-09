@@ -2,4 +2,6 @@
 
 </style>
 
-<div class="bg-image" />
+<div class="image-content">
+    <div class="bg-image" />
+</div>
