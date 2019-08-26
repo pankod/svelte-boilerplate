@@ -9,9 +9,14 @@
     "test": "jest --coverage --runInBand",
     "lint": "eslint -c .eslintrc --ext .svelte,.js src",
     "format": "eslint -c .eslintrc --fix --ext .svelte,.js --fix src",
-    "format:prettier": "prettier --write src/**/{*.svelte,*.js}"
+    "format:prettier": "prettier --write src/**/{*.svelte,*.js}",
+    "cli": "pankod-cli add"
+  },
+  "pankod": {
+    "projectType": "svelte"
   },
   "devDependencies": {
+    "@pankod/pankod-cli": "^0.2.3",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@babel/plugin-transform-strict-mode": "^7.2.0",
