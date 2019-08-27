@@ -8,6 +8,12 @@
   z-index: 1;
   text-align: center;
 
+  &__top {
+      font-size: 110px;
+      color: #ffffff;
+      margin: 0 0 10px;
+  }
+
   &__back {
     color: rgba(255, 255, 255, 0.15);
     font-size: 140px;
@@ -20,5 +26,6 @@
     font-size: 80px;
     font-weight: 500;
     position: absolute;
+    margin-top: 75px;
   }
 }
