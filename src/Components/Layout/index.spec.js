@@ -1,16 +1,11 @@
 import Layout from './index.svelte';
+import { render } from '@testing-library/svelte'
 
 describe('Layout', () => {
-	it('default render', (next) => {
-		const target = document.createElement('div');
-		const sample = new Layout({ target });
+    it('default render', () => {
+        const { container } = render(Layout)
 
-        setTimeout(() => {
-			const { firstElementChild: element } = target;
-			
-            expect(element.getAttribute('class')).toBe('layout');
-
-            next();
-		}, 10);
-	});
+        expect(container.getElementsByClassName('layout').length).toBe(1)
+        expect(container).toMatchSnapshot()
+    });
 });

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render the app 1`] = `
+<body>
+  <div>
+    <div
+      class="layout"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="container__top"
+        >
+          <div
+            class="image-content"
+          >
+            <div
+              class="bg-image"
+            />
+          </div>
+        </div>
+         
+        <div
+          class="container__middle"
+        >
+          <div
+            class="title"
+          >
+            <span
+              class="title__top"
+            >
+              Hello
+            </span>
+             
+            <span
+              class="title__front"
+            >
+              World
+            </span>
+             
+            <span
+              class="title__back"
+            >
+              World
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

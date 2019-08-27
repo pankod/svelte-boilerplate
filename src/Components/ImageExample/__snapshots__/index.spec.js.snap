@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Example renders an image 1`] = `
+<body>
+  <div>
+    <div
+      class="image-content"
+    >
+      <div
+        class="bg-image"
+      />
+    </div>
+  </div>
+</body>
+`;
