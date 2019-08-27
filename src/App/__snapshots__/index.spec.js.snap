@@ -28,15 +28,21 @@ exports[`App should render the app 1`] = `
             class="title"
           >
             <span
-              class="title__back"
+              class="title__top"
             >
-              Hello World!
+              Hello
             </span>
              
             <span
               class="title__front"
             >
-              Hello World!
+              World
+            </span>
+             
+            <span
+              class="title__back"
+            >
+              World
             </span>
           </div>
         </div>
