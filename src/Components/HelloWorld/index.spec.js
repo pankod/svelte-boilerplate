@@ -1,15 +1,14 @@
 import HelloWorld from './index.svelte';
+import { render } from '@testing-library/svelte'
 
-describe('Sample', () => {
-	it('is empty by default', (next) => {
-		const target = document.createElement('div');
-		const sample = new HelloWorld({ target });
+describe('Hello World', () => {
+    it('renders Hello World! text', () => {
+        const { container, getAllByText } = render(HelloWorld)
 
-		setTimeout(() => {
-			const { firstElementChild: element } = target;
-			expect(element.textContent).toBe('Hello World! Hello World!');
-
-			next();
-		}, 10);
-	});
+        expect(getAllByText('Hello World!').length).toBe(2)
+        expect(container.getElementsByClassName('title').length).toBe(1)
+        expect(container.getElementsByClassName('title__back').length).toBe(1)
+        expect(container.getElementsByClassName('title__front').length).toBe(1)
+        expect(container).toMatchSnapshot()
+    });
 });
