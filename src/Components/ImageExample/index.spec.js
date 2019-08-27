@@ -1,13 +1,13 @@
 import ImageExample from './index.svelte';
+import { render } from '@testing-library/svelte'
 
-describe('Image Sample', () => {
-	it('is empty by default', (next) => {
-		const target = document.createElement('div');
-		new ImageExample({ target });
-		setTimeout(() => {
-			const { firstElementChild: element } = target;
-			expect(element.className).toBe('image-content');
-			next();
-		}, 10);
-	});
+describe('Image Example', () => {
+    it('renders an image', () => {
+        const { container } = render(ImageExample)
+
+        expect(container.getElementsByClassName('image-content').length).toBe(1)
+        expect(container.getElementsByClassName('bg-image').length).toBe(1)
+
+        expect(container).toMatchSnapshot()
+    });
 });
