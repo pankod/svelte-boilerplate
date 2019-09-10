@@ -112,10 +112,10 @@ class Index extends React.Component {
 				{[
 					{
 						content:
-							'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-						image: `${baseUrl}img/sample.svg`,
+							'Bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.',
+						image: `${baseUrl}img/webpack.jpg`,
 						imageAlign: 'left',
-						title: 'Ultrices',
+						title: 'Webpack',
 					},
 				]}
 			</Block>
@@ -126,10 +126,10 @@ class Index extends React.Component {
 				{[
 					{
 						content:
-						  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-						image: `${baseUrl}img/sample.svg`,
+                        'Pankod boilerplate is shipped with a CLI tool to streamline the creation of new components',
+						image: `${baseUrl}img/cli.gif`,
 						imageAlign: 'right',
-						title: 'Nullam',
+						title: 'Built-in Project CLI',
 					},
 				]}
 			</Block>
@@ -138,10 +138,10 @@ class Index extends React.Component {
 			<Block background="light">
 				{[
 					{
-						content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.',
-						image: `${baseUrl}img/sample.svg`,
+						content: 'Create, deploy, and run applications by using docker containers.',
+						image: `${baseUrl}img/docker2.png`,
 						imageAlign: 'right',
-						title: 'Mattis'
+						title: 'Docker'
 					},
 				]}
 			</Block>
@@ -152,59 +152,30 @@ class Index extends React.Component {
 				<Block layout="fourColumn" align='center'>
 					{[
 						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
+							content: 'Component framework which compiles your code to tiny, framework-less vanilla JS.',
+							image: `${baseUrl}img/svelte.png`,
 							imageAlign: 'top',
-							title: 'Ipsum',
+                            title: 'Svelte',
+                            className: 'orm'
 						},
 						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
+							content: 'JavaScript Testing Framework with a focus on simplicity.',
+							image: `${baseUrl}img/jest.png`,
 							imageAlign: 'top',
-							title: 'Ipsum',
+							title: 'Jest',
 						},
+                        {
+                            content: "CSS preprocessor, which adds special features such as variables, nested rules and mixins into regular CSS.",
+                            image: `${baseUrl}img/sass.png`,
+                            imageAlign: 'top',
+                            title: 'Sass',
+                        },
 						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
+							content: 'Create components, style and test files with one command by using built-in cli.',
+							image: `${baseUrl}img/cli-logo.png`,
 							imageAlign: 'top',
-							title: 'Ipsum',
+							title: 'Project CLI',
 							className: 'orm'
-						},
-						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
-							imageAlign: 'top',
-							title: 'Ipsum',
-						}
-					]}
-				</Block>
-
-				<Block layout="fourColumn" align='center'>
-					{[
-
-						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
-							imageAlign: 'top',
-							title: 'Ipsum',
-						},
-						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
-							imageAlign: 'top',
-							title: 'Ipsum',
-						},
-						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
-							imageAlign: 'top',
-							title: 'Ipsum',
-						},
-						{
-							content: 'Commodo sed egestas egestas fringilla phasellus faucibus scelerisque sodales ut.',
-							image: `${baseUrl}img/sample-screen.svg`,
-							imageAlign: 'top',
-							title: 'Ipsum',
 						}
 					]}
 				</Block>

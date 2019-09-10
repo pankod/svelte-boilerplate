@@ -32,9 +32,9 @@ const url = [
 
 const siteConfig = {
 	title: 'Pankod', // Title for your website.
-	headerTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+	headerTitle: 'svelte-boilerplate',
 	tagline:
-		'Docusaurus Boilerplate',
+		'Performance oriented Svelte application boilerplate with Webpack, Babel, PostCSS, Sass, Fetch, Jest, .Env, EsLint. and Project CLI.',
 
 	url: 'https://pankod.github.io', // Your website URL
 	baseUrl: '/svelte-boilerplate/', // Base URL for your project */

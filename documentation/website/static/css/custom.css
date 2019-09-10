@@ -25,8 +25,9 @@
 	padding-bottom: 0 !important;
 }
 .blockImage{
-	width: 15%;
+    width: 50%;
 }
+       
 .projectTitle > small{
 	font-size: 42%;
 	color:#696969;
