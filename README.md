@@ -58,7 +58,6 @@ This boilerplate includes the latest powerfull tools.
 * **Built-in Project CLI**- Create pages, components, actions, reducers with one command by using built-in cli.
 * **Sass/Scss** - CSS preprocessor, which adds special features such as variables, nested rules and mixins (sometimes referred to as syntactic sugar) into regular CSS.
 * **PostCSS/autoprefixer** - A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
-* **Docker** - A tool designed to make it easier to create, deploy, and run applications by using containers.
 * **Babel** -  The compiler for next generation JavaScript.(babel/polyfill included)
 * **Eslint** - The pluggable linting utility.
 * **dotenv .config** - Expose environment variables to the runtime config of Next.js
