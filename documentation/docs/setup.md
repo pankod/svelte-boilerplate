@@ -2,4 +2,33 @@
 id: setup
 title: Setup
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus.
+
+To create a new app, you may choose one of the following methods:
+1. Clone the repository:
+
+```sh
+git clone https://github.com/pankod/svelte-boilerplate.git
+```
+
+
+2. Install the dependencies:
+
+**npm**
+
+```sh
+npm install
+```
+**yarn**
+
+```sh
+yarn install
+```
+
+3. Start the development server:
+
+ ```sh
+ npm run start:dev
+ ```
+
+4. Launch http://localhost:3000
+
