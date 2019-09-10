@@ -83,7 +83,7 @@ For more detailed documentation, check out https://pankod.github.io/svelte-boile
 
 
 <div>
- <img width="600" src="./boilerplate-cli.gif" >
+ <img width="600" src="./cli.gif" >
 </div>
 <br/>
 <br/>
@@ -99,7 +99,7 @@ npm run cli
 
 After starting, an interactive menu will let you configure the component the be created. You'll be asked for the name of the component.
 
-After answering question it generates files in miliseconds.
+After answering question it generates component, style and test files in miliseconds.
 
 <br/>
 
