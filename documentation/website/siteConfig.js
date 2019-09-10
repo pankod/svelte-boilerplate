@@ -107,7 +107,7 @@ const siteConfig = {
 
 	// Open Graph and Twitter card images.
 	// Google Analytics id
-	gaTrackingId: 'UA-143750629-1',
+	gaTrackingId: 'UA-147542228-1',
 
 	// Facebook settings
 	facebookAppId: '',
