@@ -43,10 +43,6 @@
       "unit-test": {
         "title": "Unit Testing",
         "sidebar_label": "Unit Testing"
-      },
-      "usage": {
-        "title": "Overview",
-        "sidebar_label": "Usage"
       }
     },
     "links": {

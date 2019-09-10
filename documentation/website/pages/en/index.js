@@ -73,7 +73,7 @@ class HomeSplash extends React.Component {
 						<img src="https://david-dm.org/pankod/svelte-boilerplate.svg" alt="Dependency Status" />
 					</a>
 					<a href="https://david-dm.org/pankod/svelte-boilerplate#info=devDependencies">
-						<img src="https://david-dm.org/pankod/moleculerjs-boilerplate/dev-status.svg" alt="devDependency Status" />
+						<img src="https://david-dm.org/pankod/svelte-boilerplate/dev-status.svg" alt="devDependency Status" />
 					</a>
 				</div>
 			</SplashContainer>
@@ -192,7 +192,7 @@ class Index extends React.Component {
 					<FeatureCallout />
 					<LearnHow />
 					<TryOut />
-					<LastFeature />
+			{/* 		<LastFeature /> */}
 				</div>
 			</div>
 		);

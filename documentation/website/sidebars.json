@@ -4,9 +4,7 @@
 			"getting-started",
             "features",
             "setup",
-            "structure",
-            "deployment"
-
+            "structure"
         ],
         "Features": [
 			"styling",
