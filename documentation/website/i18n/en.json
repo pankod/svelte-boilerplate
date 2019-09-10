@@ -3,11 +3,27 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Docusaurus Boilerplate",
+    "tagline": "Performance oriented Svelte application boilerplate with Webpack, Babel, PostCSS, Sass, Fetch, Jest, .Env, EsLint. and Project CLI.",
     "docs": {
+      "cli-overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "cli-usage": {
+        "title": "Usage",
+        "sidebar_label": "Usage"
+      },
+      "deployment": {
+        "title": "Deployment",
+        "sidebar_label": "Deployment"
+      },
+      "dotenv-usage": {
+        "title": "Enviroment Variables(.env)",
+        "sidebar_label": "Enviroment Variables"
+      },
       "features": {
-        "title": "Features",
-        "sidebar_label": "Features"
+        "title": "What's included?",
+        "sidebar_label": "What's included?"
       },
       "getting-started": {
         "title": "Getting Started",
@@ -15,6 +31,18 @@
       },
       "setup": {
         "title": "Setup"
+      },
+      "structure": {
+        "title": "Structure",
+        "sidebar_label": "Structure"
+      },
+      "styling": {
+        "title": "Styling",
+        "sidebar_label": "Styling"
+      },
+      "unit-test": {
+        "title": "Unit Testing",
+        "sidebar_label": "Unit Testing"
       },
       "usage": {
         "title": "Overview",
@@ -27,9 +55,8 @@
     },
     "categories": {
       "Introduction": "Introduction",
-      "Overview": "Overview",
       "Features": "Features",
-      "Usage": "Usage"
+      "Project CLI": "Project CLI"
     }
   },
   "pages-strings": {

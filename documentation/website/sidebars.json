@@ -1,17 +1,23 @@
 {
 	"docs": {
 		"Introduction": [
-			"getting-started"
-		],
-		"Overview": [
-			"setup"
+			"getting-started",
+            "features",
+            "setup",
+            "structure",
+            "deployment"
 
-		],
-		"Features": [
-			"features"
-		],
-		"Usage": [
-			"usage"
+        ],
+        "Features": [
+			"styling",
+			"unit-test",
+			"dotenv-usage"
+		
+        ],
+        "Project CLI": [
+			"cli-overview",
+			"cli-usage"
 		]
+	
 	}
 }
