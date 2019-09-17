@@ -21,7 +21,7 @@ Example:
 ```
 
 
-You need to import style.scss in to Heading/index.tsx
+You need to import style.scss into HelloWorld/index.svelte
 ```
 <style src="./style.scss">
 
