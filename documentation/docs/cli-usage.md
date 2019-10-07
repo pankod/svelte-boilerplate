@@ -5,18 +5,18 @@ sidebar_label: Usage
 ---
 
 
-After starting, an interactive menu will let you configure the component the be created. Firstly, you'll be asked for the type of the component name. Then you'll be prompted with the question of adding style file.
+After starting, an interactive menu will let you configure the component to be created. Firstly, you'll be prompted for a name of the component. Then you'll be asked if you consider adding a style file.
 
 For example, let's go through the steps of the creation of a new page component.
 
 >Enter component name
 
  - Enter the desired filename for the page. Spaces are not allowed!
- - The tool will check for the existing filenames in the project and reject if found any.
+ - The tool will check for the existing filenames in the project and reject if finds any.
 
 >Do you want to add a style file?
 
-- If you choose yes, a style.scss file is created in to same directory with the component.
+- If you choose yes, a style.scss file will be created right next to the component.
 
 
-After answering questions it generates component, style and test files in miliseconds.
+Eventually, you'll end up with a component with style and test files in no time.

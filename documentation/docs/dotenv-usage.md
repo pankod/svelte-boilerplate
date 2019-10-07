@@ -6,9 +6,7 @@ sidebar_label: Enviroment Variables
 
 
 
-This boilerplate uses dotenv plugin to expose environment variables to the Svelte runtime configuration.
-
-Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+This boilerplate uses babel-plugin-inline-dotenv to expose environment variables to the Svelte runtime configuration.
 
 After defining keys in the .env file, you can reach the same keys from file.
 ```

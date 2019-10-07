@@ -12,7 +12,6 @@ svelte-boilerplate project provides a lot of features out of the box. Below is a
 * **PostCSS/autoprefixer** - A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
 * **Babel** -  The compiler for next generation JavaScript.(babel/polyfill included)
 * **Eslint** - The pluggable linting utility.
-* **dotenv .config** - Expose environment variables to the runtime config of Next.js
 * **Jest** - Javascript testing framework , created by developers who created react
 * **testing-library** - Simplifies the use of dom-testing with Svelte components & applications.
 * **webpack** - A static module bundler for modern JavaScript applications.
