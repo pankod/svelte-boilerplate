@@ -7,15 +7,20 @@
     "es6": true,
     "browser": true
   },
-  "plugins": [
-    "svelte3",
-    "prettier"
-  ],
+  "plugins": ["prettier", "jest-dom", "svelte3"],
   "extends": ["prettier"],
   "overrides": [
     {
       "files": ["**/*.svelte"],
       "processor": "svelte3/svelte3"
     }
-  ]
+  ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
 }

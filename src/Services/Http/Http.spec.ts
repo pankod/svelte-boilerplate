@@ -1,4 +1,4 @@
-import { Http } from './Http';
+import { Http } from './index';
 
 describe('Http request tests', () => {
     test('200 test', async () => {
