@@ -14,10 +14,12 @@
 
 </style>
 
-<ul>
-    {#each data as link}
-        <li>
-            <a href={link.url}>{link.title}</a>
-        </li>
-    {/each}
-</ul>
+<div class="fetch-example">
+    <ul>
+        {#each data as link}
+            <li>
+                <a href={link.url}>{link.title}</a>
+            </li>
+        {/each}
+    </ul>
+</div>

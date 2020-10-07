@@ -1,0 +1,21 @@
+{
+	"docs": {
+		"Introduction": [
+			"getting-started",
+            "features",
+            "setup",
+            "structure"
+        ],
+        "Features": [
+			"styling",
+			"unit-test",
+			"dotenv-usage"
+		
+        ],
+        "Project CLI": [
+			"cli-overview",
+			"cli-usage"
+		]
+	
+	}
+}

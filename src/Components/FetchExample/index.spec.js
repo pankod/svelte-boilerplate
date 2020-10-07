@@ -1,14 +1,14 @@
 import FetchExample from './index.svelte';
+import { render } from '@testing-library/svelte'
 
-describe('Sample', () => {
-	it('is empty by default', (next) => {
-		const target = document.createElement('div');
-		const sample = new FetchExample({ target });
+describe('Fetch Example', () => {
+    it('fetches links asynchronously', (next) => {
+        const { container } = render(FetchExample)
+
         setTimeout(() => {
-			const { firstElementChild: element } = target;
-			expect(element.children.length).toBe(2);
-
-            next();
-		}, 10);
-	});
+            expect(container.getElementsByTagName('li').length).toBe(2)
+            expect(container).toMatchSnapshot()
+            next()
+        }, 10)
+    });
 });

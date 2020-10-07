@@ -9,7 +9,7 @@ module.exports = {
 	moduleNameMapper: {
 		'^@([A-Z].*)$': '<rootDir>/src/$1'
 	},
-	setupFiles: [
+	setupFilesAfterEnv: [
 		"<rootDir>/jest.setup.js"
 	]
 };

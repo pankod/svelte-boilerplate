@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetch Example fetches links asynchronously 1`] = `
+<body>
+  <div>
+    <div
+      class="fetch-example"
+    >
+      <ul>
+        <li>
+          <a
+            href="test"
+          >
+            test
+          </a>
+           
+        </li>
+        <li>
+          <a
+            href="test2"
+          >
+            test2
+          </a>
+           
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+`;

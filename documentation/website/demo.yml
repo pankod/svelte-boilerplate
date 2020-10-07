@@ -1,0 +1,164 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/necati/Documents/svelte-boilerplate/documentation/website
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 16
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Pankod CLI
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 15
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  
+  - delay: 187
+    content: "  ____             _             _   ____           _ _          ____ _     ___ \r\n |  _ \\ __ _ _ __ | | _____   __| | / ___|_   _____| | |_ ___   / ___| |   |_ _|\r\n | |_) / _` | '_ \\| |/ / _ \\ / _` | \\___ \\ \\ / / _ \\ | __/ _ \\ | |   | |    | | \r\n |  __/ (_| | | | |   < (_) | (_| |  ___) \\ V /  __/ | ||  __/ | |___| |___ | | \r\n |_|   \\__,_|_| |_|_|\\_\\___/ \\__,_| |____/ \\_/ \\___|_|\\__\\___|  \\____|_____|___|\r\n                                                                                \r\n"
+  - delay: 335
+    content: "\e[?25l\e[32m?\e[39m \e[1mWhat do you want to add?\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ Component\e[39m \e[12D\e[12C"
+  - delay: 1008
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhat do you want to add?\e[22m\e[0m \e[0m\e[36mComponent\e[39m\e[36D\e[36C\r\n\e[?25h"
+  - delay: 9
+    content: "\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0m\e[23D\e[23C"
+  - delay: 660
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0ma\e[24D\e[24C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0maw\e[25D\e[25C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawe\e[26D\e[26C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawes\e[27D\e[27C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0maweso\e[28D\e[28C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesom\e[29D\e[29C"
+  - delay: 1   
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesome\e[30D\e[30C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeC\e[31D\e[31C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeCo\e[32D\e[32C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeCom\e[33D\e[33C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeComp\e[34D\e[34C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeCompo\e[35D\e[35C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeCompon\e[36D\e[36C"
+  - delay: 1    
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeCompone\e[37D\e[37C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeComponen\e[38D\e[38C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0mawesomeComponent\e[39D\e[39C"
+  - delay: 1
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mEnter component name\e[22m\e[0m \e[0m\e[36mawesomeComponent\e[39m\e[39D\e[39C\r\n\e[32m?\e[39m \e[1mDo you want to add style file?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[39D\e[39C"
+  - delay: 975
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to add style file?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22my\e[40D\e[40C"
+  - delay: 237
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to add style file?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[36D\e[36C\r\n"
+  - delay: 9
+    content: "\e[32m✔\e[39m Add new component.\r\n\e[32m✔\e[39m Added new component test.\r\n\e[32m✔\e[39m Added new style file\r\n"
+  - delay: 1500
+    content: "\e[?25h"

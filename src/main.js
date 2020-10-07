@@ -1,12 +1,10 @@
 import "@babel/polyfill";
 
-import App from './App.svelte';
+import App from './App/index.svelte';
+import './Assets/css/global.css';
 
 const app = new App({
-	target: document.body,
-	props: {
-		name: 'world2'
-	}
+    target: document.body
 });
 
 window.app = app;

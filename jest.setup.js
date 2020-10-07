@@ -1,8 +1,11 @@
 import "@babel/polyfill";
 import dotenv from 'dotenv';
 import nock from 'nock';
+import { cleanup } from '@testing-library/svelte'
 
 dotenv.config({path: './.test.env'});
+
+beforeEach(cleanup)
 
 nock('https://academy.valentinog.com')
 	.get('/api/link/')
