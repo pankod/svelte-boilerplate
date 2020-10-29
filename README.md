@@ -106,5 +106,3 @@ After answering question it generates component, style and test files in milisec
 ## License
 
 Licensed under the MIT License, Copyright © 2019-present Pankod
-
-
