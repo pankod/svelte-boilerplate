@@ -46,7 +46,7 @@
     "prettier-plugin-svelte": "^0.7.0",
     "serve": "^11.0.0",
     "style-loader": "^0.23.1",
-    "svelte": "^3.0.0",
+    "svelte": "^3.49.0",
     "svelte-loader": "2.13.3",
     "svelte-preprocess": "^2.15.0",
     "webpack": "^4.30.0",
